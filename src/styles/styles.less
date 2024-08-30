@@ -1,0 +1,123 @@
+// Dark theme customization
+@primary-color: #1DA57A;
+@layout-body-background: #141414;
+@component-background: #141414;
+@heading-color: #fff;
+@text-color: #fff;
+@text-color-secondary: fade(#fff, 85%);
+@border-color-base: #212121;
+@background-color-light: #333;
+@item-hover-bg: #1f1f1f;
+@disabled-color: fade(#fff, 30%);
+@disabled-bg: #444;
+@input-placeholder-color: fade(#fff, 30%);
+@header-background: #000000;
+
+.ant-table-container {
+  background-color: @component-background;
+}
+
+.ant-table-content {
+  background-color: @component-background;
+}
+
+.ant-table-thead > tr > th {
+  background-color: @component-background !important;
+  color: #5F5F5F  !important;
+  border-bottom: 1px solid @border-color-base !important;
+  font-size: 12px;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th::before,
+.ant-table-wrapper .ant-table-thead > tr > td::before {
+  content: none !important;
+  display: none !important;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: @component-background;
+  color: @text-color-secondary;
+  border-bottom: 1px solid @border-color-base !important;
+}
+
+.ant-table-row:hover > td {
+  background-color: @item-hover-bg !important;
+  color: @text-color !important;
+}
+
+.ant-checkbox-inner {
+  background-color: @component-background;
+  border-color: @border-color-base;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #32D583;
+  border-color: #32D583;
+}
+
+.ant-btn-link {
+  color: @text-color;
+}
+
+.anticon {
+  color: #5F5F5F  !important;
+}
+
+.anticon-delete {
+  color: #FF4D4F !important;
+}
+
+.ant-picker {
+  background-color: @background-color-light;
+  border: none;
+  color: @text-color;
+}
+
+.ant-picker-input > input {
+  color: @text-color;
+}
+
+.ant-input {
+  background-color: @background-color-light;
+  color: @text-color;
+  border-color: @border-color-base;
+}
+
+.ant-input::placeholder {
+  color: @input-placeholder-color;
+}
+
+.ant-switch-checked {
+  background-color: #32D583;
+}
+
+.ant-switch {
+  background-color: #060606;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner::after {
+  border-color: #060606  !important;
+}
+
+.ant-table-cell {
+  border-right: none !important;
+}
+
+
+.ant-table-thead > tr > th:first-child,
+.ant-table-tbody > tr > td:first-child {
+  padding-left: 16px;
+}
+
+.ant-table-row-indent {
+  margin-left: 16px;
+}
+
+.ant-table-tbody > tr > td:nth-child(2),
+.ant-table-thead > tr > th:nth-child(2) {
+  border-right: 1px solid @border-color-base !important;
+}
+
+.dark-row {
+  background: @item-hover-bg;
+}
