@@ -1,0 +1,85 @@
+{
+    "timeline": [
+      {
+        "time": 0,
+        "chartData": [
+            { "name": "Jan 23", "Gross_Profit": 55, "Balance": 75, "Cost": 60, "Revenue": 55 },
+            { "name": "Feb 23", "Gross_Profit": 65, "Balance": 80, "Cost": 55, "Revenue": 65 },
+            { "name": "Mar 23", "Gross_Profit": 60, "Balance": 70, "Cost": 50, "Revenue": 55 },
+            { "name": "Apr 23", "Gross_Profit": 70, "Balance": 90, "Cost": 65, "Revenue": 55 },
+            { "name": "May 23", "Gross_Profit": 75, "Balance": 95, "Cost": 70, "Revenue": 75 },
+            { "name": "Jun 23", "Gross_Profit": 80, "Balance": 85, "Cost": 60, "Revenue": 45 },
+            { "name": "Jul 23", "Gross_Profit": 85, "Balance": 100, "Cost": 75, "Revenue": 70 },
+            { "name": "Aug 23", "Gross_Profit": 90, "Balance": 105, "Cost": 80, "Revenue": 70 },
+            { "name": "Sep 23", "Gross_Profit": 95, "Balance": 110, "Cost": 90, "Revenue": 75 },
+            { "name": "Oct 23", "Gross_Profit": 100, "Balance": 100, "Cost": 80, "Revenue": 65 },
+            { "name": "Nov 23", "Gross_Profit": 90, "Balance": 115, "Cost": 95, "Revenue": 107 },
+            { "name": "Dec 23", "Gross_Profit": 105, "Balance": 120, "Cost": 100, "Revenue": 75 },
+            { "name": "Jan 24", "Gross_Profit": 115, "Balance": 110, "Cost": 90, "Revenue": 75 },
+            { "name": "Feb 24", "Gross_Profit": 110, "Balance": 125, "Cost": 105, "Revenue": 85 },
+            { "name": "Mar 24", "Gross_Profit": 120, "Balance": 130, "Cost": 110, "Revenue": 95 },
+            { "name": "Apr 24", "Gross_Profit": 125, "Balance": 135, "Cost": 115, "Revenue": 85 },
+            { "name": "May 24", "Gross_Profit": 130, "Balance": 140, "Cost": 120, "Revenue": 85 },
+            { "name": "Jun 24", "Gross_Profit": 135, "Balance": 145, "Cost": 125, "Revenue": 95 },
+            { "name": "Jul 24", "Gross_Profit": 125, "Balance": 135, "Cost": 115, "Revenue": 105 }
+          ]          
+      },
+      {
+        "time": 3,
+        "chartData": [
+            { "name": "Jan 23", "Gross_Profit": 60, "Balance": 80, "Cost": 65, "Revenue": 60 },
+            { "name": "Feb 23", "Gross_Profit": 70, "Balance": 85, "Cost": 60, "Revenue": 70 },
+            { "name": "Mar 23", "Gross_Profit": 65, "Balance": 75, "Cost": 55, "Revenue": 60 },
+            { "name": "Apr 23", "Gross_Profit": 75, "Balance": 95, "Cost": 70, "Revenue": 60 },
+            { "name": "May 23", "Gross_Profit": 80, "Balance": 100, "Cost": 75, "Revenue": 80 },
+            { "name": "Jun 23", "Gross_Profit": 85, "Balance": 90, "Cost": 65, "Revenue": 50 },
+            { "name": "Jul 23", "Gross_Profit": 90, "Balance": 105, "Cost": 80, "Revenue": 75 },
+            { "name": "Aug 23", "Gross_Profit": 95, "Balance": 110, "Cost": 85, "Revenue": 75 },
+            { "name": "Sep 23", "Gross_Profit": 100, "Balance": 115, "Cost": 95, "Revenue": 80 },
+            { "name": "Oct 23", "Gross_Profit": 105, "Balance": 105, "Cost": 85, "Revenue": 70 },
+            { "name": "Nov 23", "Gross_Profit": 95, "Balance": 120, "Cost": 100, "Revenue": 112 },
+            { "name": "Dec 23", "Gross_Profit": 110, "Balance": 125, "Cost": 105, "Revenue": 80 },
+            { "name": "Jan 24", "Gross_Profit": 120, "Balance": 115, "Cost": 95, "Revenue": 80 },
+            { "name": "Feb 24", "Gross_Profit": 115, "Balance": 130, "Cost": 110, "Revenue": 90 },
+            { "name": "Mar 24", "Gross_Profit": 125, "Balance": 135, "Cost": 115, "Revenue": 100 },
+            { "name": "Apr 24", "Gross_Profit": 130, "Balance": 140, "Cost": 120, "Revenue": 90 },
+            { "name": "May 24", "Gross_Profit": 135, "Balance": 145, "Cost": 125, "Revenue": 90 },
+            { "name": "Jun 24", "Gross_Profit": 140, "Balance": 150, "Cost": 130, "Revenue": 100 },
+            { "name": "Jul 24", "Gross_Profit": 130, "Balance": 140, "Cost": 120, "Revenue": 110 }
+          ]
+          
+      },
+      {
+        "time": 6,
+        "chartData": [
+            { "name": "Jan 23", "Gross_Profit": 65, "Balance": 85, "Cost": 70, "Revenue": 65 },
+            { "name": "Feb 23", "Gross_Profit": 75, "Balance": 90, "Cost": 65, "Revenue": 75 },
+            { "name": "Mar 23", "Gross_Profit": 70, "Balance": 80, "Cost": 60, "Revenue": 65 },
+            { "name": "Apr 23", "Gross_Profit": 80, "Balance": 100, "Cost": 75, "Revenue": 65 },
+            { "name": "May 23", "Gross_Profit": 85, "Balance": 105, "Cost": 80, "Revenue": 85 },
+            { "name": "Jun 23", "Gross_Profit": 90, "Balance": 95, "Cost": 70, "Revenue": 55 },
+            { "name": "Jul 23", "Gross_Profit": 95, "Balance": 110, "Cost": 85, "Revenue": 80 },
+            { "name": "Aug 23", "Gross_Profit": 100, "Balance": 115, "Cost": 90, "Revenue": 80 },
+            { "name": "Sep 23", "Gross_Profit": 105, "Balance": 120, "Cost": 100, "Revenue": 85 },
+            { "name": "Oct 23", "Gross_Profit": 110, "Balance": 110, "Cost": 90, "Revenue": 75 },
+            { "name": "Nov 23", "Gross_Profit": 100, "Balance": 125, "Cost": 105, "Revenue": 117 },
+            { "name": "Dec 23", "Gross_Profit": 115, "Balance": 130, "Cost": 110, "Revenue": 85 },
+            { "name": "Jan 24", "Gross_Profit": 125, "Balance": 120, "Cost": 100, "Revenue": 85 },
+            { "name": "Feb 24", "Gross_Profit": 120, "Balance": 135, "Cost": 115, "Revenue": 95 },
+            { "name": "Mar 24", "Gross_Profit": 130, "Balance": 140, "Cost": 120, "Revenue": 105 },
+            { "name": "Apr 24", "Gross_Profit": 135, "Balance": 145, "Cost": 125, "Revenue": 95 },
+            { "name": "May 24", "Gross_Profit": 140, "Balance": 150, "Cost": 130, "Revenue": 95 }
+        ]
+      },
+      {
+        "time": 9,
+        "chartData": [
+          { "name": "Jan 24", "Gross_Profit": 110, "Balance": 105, "Cost": 85, "Revenue": 70 },
+          { "name": "Feb 24", "Gross_Profit": 105, "Balance": 120, "Cost": 100, "Revenue": 80 },
+          { "name": "Mar 24", "Gross_Profit": 115, "Balance": 125, "Cost": 105, "Revenue": 90 },
+          { "name": "Apr 24", "Gross_Profit": 120, "Balance": 130, "Cost": 110, "Revenue": 80 }
+        ]
+      }
+    ]
+  }
+  
