@@ -1,8 +1,53 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Lunara Dashboard
+## Project Overview
+The Lunara Dashboard is a comprehensive, responsive web application designed to provide insights and analytics for business metrics. The dashboard features interactive charts, data tables, and a sidebar navigation menu, making it easy to explore financial data and monitor key performance indicators.
 
-First, run the development server:
+## Tools and Technologies Used
+### Next.js: 
+The project is built using Next.js, a React framework that enables server-side rendering, static site generation, and provides a strong foundation for building high-performance web applications.
+### TypeScript: 
+TypeScript is used to add static typing to the project, improving code quality, reducing bugs, and enhancing developer productivity.
+### Material-UI (MUI): 
+Material-UI components are utilized for building a sleek, consistent user interface that follows Material Design principles. This includes the use of Drawer for the sidebar, Table for data display, and various other components to ensure a cohesive look and feel.
+### Styled Components: 
+For styling, we used styled-components, which allows for writing CSS in JavaScript. This helps in creating modular, reusable, and scoped styles for the components.
+### Ant Design (AntD): 
+The data tables in the dashboard are powered by Ant Design (AntD), a powerful React UI framework known for its comprehensive set of components. AntD's Table component is used for displaying tabular data, providing features such as pagination, sorting, and custom styling, making it easy to manage and display large datasets efficiently.
+### Recharts: 
+The project uses Recharts to create responsive and interactive charts, providing visual representations of financial data, including balance, cost, revenue, and gross profit metrics.
+### Redux Toolkit: 
+Redux Toolkit is used for global state management, making it easier to manage and share application state across components, especially useful for handling data shared between charts and tables.
+### Git & GitHub: 
+The version control for this project is managed using Git, and the code is hosted on GitHub. The repository tracks all changes and allows for collaboration and version history.
+
+## Features
+### Responsive Design: 
+The dashboard is fully responsive, ensuring an optimal user experience across various devices, including desktops, tablets, and mobile phones.
+### Interactive Charts: 
+Users can interact with dynamic charts to visualize key business metrics over time.
+### Customizable Sidebar: 
+The sidebar features links to different sections of the dashboard, with a toggle feature for mobile devices.
+### Advanced Data Table: 
+Powered by Ant Design, the data table component offers a robust solution for displaying and managing financial data. It supports various features like pagination, sorting, and custom cell rendering, ensuring that large datasets are presented efficiently.
+
+## ScreenShots of Lunara Dashboard project
+![Lunara-dashboard](https://github.com/user-attachments/assets/917c77eb-242b-461e-8cbe-27b21ecfb007)
+
+# Mobile View with drawer closed
+![drawerClosed](https://github.com/user-attachments/assets/a186b61a-7a04-4f80-b04c-5edac1730b4e)
+
+# Mobile with drawer open
+![drawerOpen](https://github.com/user-attachments/assets/f7c8acc3-c01f-4d75-8544-57a3b152d840)
+
+## Getting Started
+To run this project locally:
+
+Clone the repository.
+Install dependencies using npm install.
+Run the development server with npm run dev.
+Open http://localhost:3000 to view the project in the browser.
 
 ```bash
 npm run dev
