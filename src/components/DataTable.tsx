@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setTableData } from "../state/dashboardSlice";
 import { RootState } from "../state/store";
-
+import withPermissions from '../HOC/WithPermissions';
 import { Table, Checkbox, Space, Button, DatePicker } from "antd";
 import { EyeInvisibleOutlined, EyeOutlined } from "@ant-design/icons";
 import type { ColumnsType } from "antd/lib/table";
@@ -168,4 +168,4 @@ const CustomTable: React.FC = () => {
 </ResponsiveTableContainer>  );
 };
 
-export default CustomTable;
+export default withPermissions(CustomTable,"CustomTable");

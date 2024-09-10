@@ -25,6 +25,8 @@ import {
   UserName,
   UserRole,
 } from "../styles/styles";
+import withPermissions from '../HOC/WithPermissions';
+
 
 const Sidebar: React.FC = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -249,4 +251,4 @@ const Sidebar: React.FC = () => {
   );
 };
 
-export default Sidebar;
+export default withPermissions(Sidebar,'Sidebar');

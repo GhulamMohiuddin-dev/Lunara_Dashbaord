@@ -3,6 +3,8 @@ import { Box, Breadcrumbs, Link, Typography } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import { BreadcrumbSection, FinancialSummary } from "../styles/styles"
 import {TopHeaderContainer} from "../styles/commonStyles"
+import withPermissions from '../HOC/WithPermissions';
+
 
 
 function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
@@ -67,4 +69,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default withPermissions(Header,'Header');

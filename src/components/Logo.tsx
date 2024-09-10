@@ -1,6 +1,8 @@
 import React from "react";
 import { Box } from "@mui/material";
 import LogoIcon from "../../public/images/Lunara-logo.svg";
+import withPermissions from '../HOC/WithPermissions';
+
 
 const Logo = () => {
   return (
@@ -10,4 +12,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default withPermissions(Logo,'Logo');

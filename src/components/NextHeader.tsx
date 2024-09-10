@@ -2,6 +2,8 @@ import React from "react";
 import { Box, Typography, Button, Avatar } from "@mui/material";
 import {NextHeaderContainer} from "../styles/commonStyles"
 import { RunwayInfo, ActionSection } from "../styles/styles"
+import withPermissions from '../HOC/WithPermissions';
+
 
 const Header: React.FC = () => {
   return (
@@ -85,4 +87,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default withPermissions(Header,'Header');

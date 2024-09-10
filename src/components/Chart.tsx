@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { setChartData } from "../state/dashboardSlice";
 import { useSelector } from "react-redux";
 import { RootState } from "../state/store";
+import withPermissions from '../HOC/WithPermissions';
 import chartDataTimeline from "../dummyData/dataTimeLine.json";
 
 import {
@@ -82,4 +83,4 @@ const CustomChart = () => {
   );
 };
 
-export default CustomChart;
+export default withPermissions(CustomChart,'CustomChart');
