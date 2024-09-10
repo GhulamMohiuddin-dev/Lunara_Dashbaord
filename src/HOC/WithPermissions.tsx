@@ -15,9 +15,9 @@ const withPermissions = (Component: React.FC, componentName: string) => {
           return permissions.canViewSidebar;
         case 'Header':
           return permissions.canViewHeader;
-        case 'Chart':
+        case 'CustomChart':
           return permissions.canViewChart;
-        case 'DataTable':
+        case 'CustomTable':
           return permissions.canViewDataTable;
         default:
           return false;

@@ -20,7 +20,7 @@ const withAuthorization = (WrappedComponent: NextComponentType<NextPageContext>,
       const permissions: Permissions = {
         canViewSidebar: allowedComponents.includes('Sidebar'),
         canViewHeader: allowedComponents.includes('Header'),
-        canViewChart: allowedComponents.includes('Chart'),
+        canViewChart: allowedComponents.includes('CustomChart'),
         canViewDataTable: allowedComponents.includes('DataTable'),
       };
 
